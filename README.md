@@ -1,2 +1,2 @@
-# SamuelWang05.github.io
+# SamuelWang.github.io
 Personal Portfolio Website
