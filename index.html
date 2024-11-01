@@ -11,43 +11,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="cursor"></div>
+    <script src="script.js"></script>
+
     <h1>Samuel Wang's Portfolio</h1>
 
-    <div class = "button-container">
-
-        <a href = "aboutMe.html" target = _self title = "Learn more about me!">
-            <button>
-                <b> About Me </b>
-            </button>
-        </a>
-
-        <a href = "projectsHome.html" target = _self title = "See what I've made!">
-            <button>
-                <b> My Projects </b>
-            </button>
-        </a>
-
-        <a href = "https://www.linkedin.com/in/samuel-wang-506a9029a/", target = _blank title = "Connect with me!">
-            <button>
-                <b> LinkedIn </b>
-            </button>
-        </a>
-
-        <a href = "https://samuelwang1.blogspot.com/" target = _blank title = "My old blog website">
-            <button>
-                <b>Previous Blog</b>
-            </button>
-        </a>
-
-        <a href = "Downloadables/Samuel Wang Electrical Engineering Resume.pdf" target = _blank title = "My resume">
-            <button>
-                <b>Resume</b>
-            </button>
-        </a>
-
+    <div id="container">
+        <div class="container" style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+            <nav>
+                <ul>
+                    <li><a href = "aboutMe.html" target = _self title = "Learn more about me!"><button><b>About Me</b></button></a></li>
+                    <li><a href = "projectsHome.html" target = _self title = "See what I've made!"><button><b>Projects</b></button></a></li>
+                    <li><a href = "https://www.linkedin.com/in/samuel-wang-506a9029a/", target = _blank title = "Connect with me!"><button><b>LinkedIn</b></button></a></li>
+                    <li><a href = "https://samuelwang1.blogspot.com/" target = _blank title = "My old blog website"><button><b>Blog</b></button></a></li>
+                    <li><a href = "Downloadables/Samuel Wang Electrical Engineering Resume.pdf" target = _blank title = "My resume"><button><b>Resume</b></button></a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
-
-    <hr>
 
     <img src = "Images/meWithPoster.jpg" height = "300" alt = "This is a picture of me in front of a poster" title="My poster presentation at the NSREC 2023 confrence">
 
